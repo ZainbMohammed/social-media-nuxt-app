@@ -5,7 +5,7 @@
 
         </div>
 
-        <div class='hidden ml-4 text-xl md:block' :class="textClasses">
+        <div class='hidden ml-4 text-xl xl:block' :class="textClasses">
             <slot name='title'></slot>
         </div>
     </nuxt-link>
