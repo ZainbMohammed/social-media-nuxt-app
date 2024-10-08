@@ -8,16 +8,13 @@
           <!-- Left Sidebar -->
           <div class='hidden sm:block xs-col-span-1 xl:col-span-2'>
             <div class='sticky top-0'>
-
               <SidebarLeft />
-              <!-- <sidebar-left />  => It can be like this -->
-
             </div>
           </div>
           <!-- Main Content -->
-          <!-- <main class='bg-red-500 col-span-12 md:col-span-8 xl:col-spane-6'>
-            <h1>Main Content</h1>
-           </main> -->
+          <main class='bg-red-100 col-span-12 md:col-span-8 xl:col-spane-6'>
+            <router-view/>
+           </main>
 
           <!-- Right Sidebar -->
           <!-- <div class='hidden sm:block xl:col-span-4 md:col-span-3 bg-blue-500'>
@@ -25,7 +22,7 @@
               <h1>Right Sidebar</h1>
             </div>
           </div> -->
-          <div class='col-span-12 bg-blue-500 md:block xl:col-span-4 md:col-span-3 '>
+          <div class='hidden col-span-12 md:block xl:col-span-4 md:col-span-3 '>
             <div class='sticky top-0'>
               <SidebarRight />
             </div>
