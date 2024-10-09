@@ -4,7 +4,6 @@
            this is our home page        
         </MainSection>
     </div>
-
 </template>
 
 <script setup>

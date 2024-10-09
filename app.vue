@@ -17,11 +17,6 @@
            </main>
 
           <!-- Right Sidebar -->
-          <!-- <div class='hidden sm:block xl:col-span-4 md:col-span-3 bg-blue-500'>
-            <div class='sticky top-0'>
-              <h1>Right Sidebar</h1>
-            </div>
-          </div> -->
           <div class='hidden col-span-12 md:block xl:col-span-4 md:col-span-3 '>
             <div class='sticky top-0'>
               <SidebarRight />

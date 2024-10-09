@@ -40,7 +40,6 @@
             </SidebarRightPreviewCardItem>
         </SidebarRightPreviewCard>
 
-
     </div>
 </template>
 
